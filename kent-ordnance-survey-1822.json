@@ -1,10 +1,10 @@
 {
     "@context": "http://iiif.io/api/presentation/2/context.json",
-    "@id": "https://raw.githubusercontent.com/rdsnyder/manifests/main/kent-ordnance-survey.json",
+    "@id": "https://raw.githubusercontent.com/rdsnyder/manifests/main/kent-ordnance-survey-1822.json",
     "@type": "sc:Manifest",
     "label": "Kent Ordnance Survey (1822)",
     "thumbnail": {
-        "@id": "https://raw.githubusercontent.com/rdsnyder/manifests/main/kent-ordnance-survey/thumbnail",
+        "@id": "https://raw.githubusercontent.com/rdsnyder/manifests/main/kent-ordnance-survey-1822/thumbnail",
         "service": {
             "@context": "http://iiif.io/api/image/2/context.json",
             "@id": "https://4x4rr42s5yd4hr7mdrjqp3euqm0hnpoe.lambda-url.us-east-1.on.aws/iiif/2/7231423ca2883214e1c46270ae251d1f56ff79b9a0f8cc9791bae8d3bede2208",
@@ -18,14 +18,14 @@
             "@type": "sc:Sequence",
             "canvases": [
                 {
-                    "@id": "https://raw.githubusercontent.com/rdsnyder/manifests/main/kent-ordnance-survey/canvas/1",
+                    "@id": "https://raw.githubusercontent.com/rdsnyder/manifests/main/kent-ordnance-survey-1822/canvas/1",
                     "@type": "sc:Canvas",
                     "label": "Kent Ordnance Survey (1822)",
                     "width": 12456,
                     "height": 10968,
                     "images": [
                         {
-                            "@id": "https://raw.githubusercontent.com/rdsnyder/manifests/main/kent-ordnance-survey/annotation/1",
+                            "@id": "https://raw.githubusercontent.com/rdsnyder/manifests/main/kent-ordnance-survey-1822/annotation/1",
                             "@type": "oa:Annotation",
                             "motivation": "sc:painting",
                             "resource": {
@@ -40,7 +40,7 @@
                                     "profile": "http://iiif.io/api/image/2/level2.json"
                                 }
                             },
-                            "on": "https://raw.githubusercontent.com/rdsnyder/manifests/main/kent-ordnance-survey/canvas/1"
+                            "on": "https://raw.githubusercontent.com/rdsnyder/manifests/main/kent-ordnance-survey-1822/canvas/1"
                         }
                     ]
                 }
