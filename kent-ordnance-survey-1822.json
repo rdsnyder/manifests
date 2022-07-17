@@ -12,6 +12,16 @@
         }
     },
     "attribution": "Used by permission of the National Library of Scotland.",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "Kent Ordnance Survey"
+        },
+        {
+            "label": "Date",
+            "value": "1822"
+        }
+    ],
     "sequences": [
         {
             "@type": "sc:Sequence",
