@@ -1,0 +1,119 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://ark.digitalcommonwealth.org/ark:/50959/4m90fk088/manifest",
+    "@type": "sc:Manifest",
+    "label": "Aeronautical view of the Panama Canal",
+    "thumbnail": {
+        "@id": "https://ark.digitalcommonwealth.org/ark:/50959/4m90fk088/thumbnail",
+        "service": {
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "@id": "https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:4m90fk09j",
+            "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+    },
+    "viewingHint": "individuals",
+    "metadata": [
+        {
+            "label": "Title",
+            "value": "Aeronautical view of the Panama Canal"
+        },
+        {
+            "label": "Date",
+            "value": "1911"
+        },
+        {
+            "label": "Creator",
+            "value": [
+                "Gray, C. P.",
+                "Graves, F. D.",
+                "Central Novelty Company"
+            ]
+        },
+        {
+            "label": "Publisher",
+            "value": "New York : F.D. Graves ;||Published by Central Novelty Co.,"
+        },
+        {
+            "label": "Type of Resource",
+            "value": [
+                "cartographic",
+                "three dimensional object"
+            ]
+        },
+        {
+            "label": "Format",
+            "value": "Maps"
+        },
+        {
+            "label": "Language",
+            "value": "English"
+        },
+        {
+            "label": "Subjects",
+            "value": [
+                "Panama Canal (Panama)--Relief models",
+                "Panama Canal (Panama)--Maps"
+            ]
+        },
+        {
+            "label": "Location",
+            "value": "Boston Public Library"
+        },
+        {
+            "label": "Collection (local)",
+            "value": "Norman B. Leventhal Map Center Collection"
+        },
+        {
+            "label": "Identifier",
+            "value": [
+                "https://ark.digitalcommonwealth.org/ark:/50959/4m90fk088",
+                "06_01_011845",
+                "G4872.P3C18 1911 .G73",
+                "39999065690677"
+            ]
+        },
+        {
+            "label": "Terms of Use",
+            "value": [
+                "No known copyright restrictions.",
+                "No known restrictions on use."
+            ]
+        }
+    ],
+    "attribution": "No known copyright restrictions. No known restrictions on use.",
+    "seeAlso": "https://ark.digitalcommonwealth.org/ark:/50959/4m90fk088",
+    "sequences": [
+        {
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://ark.digitalcommonwealth.org/ark:/50959/4m90fk088/canvas/4m90fk09j",
+                    "@type": "sc:Canvas",
+                    "label": "image 1",
+                    "width": 8339,
+                    "height": 5885,
+                    "images": [
+                        {
+                            "@id": "https://ark.digitalcommonwealth.org/ark:/50959/4m90fk088/annotation/4m90fk09j",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "resource": {
+                                "@id": "https://ark.digitalcommonwealth.org/ark:/50959/4m90fk09j/large_image",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "width": 8339,
+                                "height": 5885,
+                                "service": {
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:4m90fk09j",
+                                    "profile": "http://iiif.io/api/image/2/level2.json"
+                                }
+                            },
+                            "on": "https://ark.digitalcommonwealth.org/ark:/50959/4m90fk088/canvas/4m90fk09j"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
